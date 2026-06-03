@@ -15,14 +15,14 @@ const locations = {
     phone: '+92 42 123 4567',
     email: 'info.lhr@ict.net.pk',
     address: '5th Floor, Pace Shopping Mall, Model Town, Link Road, Lahore',
-    image: '/lahore.webp',
+    image: '/Lahore.webp',
     timings: { mon: '9 am – 5:00 pm', tueFri: '9 am – 5:00 pm', sat: '9 am – 1:00 pm' }
   },
   Karachi: {
     phone: '+92 21 987 6543',
     email: 'info.khi@ict.net.pk',
     address: 'Main Shahrah-e-Faisal, Karachi',
-    image: '/karachi.webp',
+    image: '/Karachi.webp',
     timings: { mon: '9 am – 5:30 pm', tueFri: '9 am – 5:30 pm', sat: '9 am – 5:30 pm' }
   }
 }
