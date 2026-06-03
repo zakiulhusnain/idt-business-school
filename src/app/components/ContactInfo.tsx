@@ -139,7 +139,7 @@ export default function ContactInfo() {
 {/* Dynamic Google Map Instead of Image */}
 <div className="w-full aspect-[16/9] md:aspect-[16/9] relative rounded-2xl overflow-hidden shadow-sm border border-gray-100">
   <iframe
-    src={locations[activeTab].mapUrl}
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6641.868097015817!2d73.03444614607795!3d33.65887072342264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf8f8cb6356d%3A0x5f8dda7539291cdf!2sBasharat%20Ali%20%26%20Company!5e0!3m2!1sen!2s!4v1780478002430!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
     width="100%"
     height="100%"
     style={{ border: 0 }}
