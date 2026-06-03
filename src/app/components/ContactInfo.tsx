@@ -136,15 +136,18 @@ export default function ContactInfo() {
             </div>
             
             {/* Fluid Proportional Image Container */}
-            <div className="w-full aspect-[16/9] sm:aspect-[21/9] md:aspect-[16/9] relative rounded-2xl overflow-hidden shadow-sm border border-gray-100 select-none">
-              <Image 
-                src={locations[activeTab].image} 
-                alt={`${activeTab} Campus`} 
-                fill 
-                className="object-cover object-center" 
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </div>
+{/* Dynamic Google Map Instead of Image */}
+<div className="w-full aspect-[16/9] md:aspect-[16/9] relative rounded-2xl overflow-hidden shadow-sm border border-gray-100">
+  <iframe
+    src={locations[activeTab].mapUrl}
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
           </div>
 
         </div>
