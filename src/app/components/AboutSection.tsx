@@ -15,7 +15,7 @@ export default function AboutSection() {
                 <Image src="https://idt-olive.vercel.app/It student.jpg" alt="Student" fill className="object-cover" />
               </div>
               <div className="bg-[#0A4DA1] text-white p-4 rounded-2xl shadow-lg flex items-center gap-3">
-                <Image src="/main.png" alt="Icon" width={30} height={30} className="rounded-full" />
+                <Image src="/Main.png" alt="Icon" width={30} height={30} className="rounded-full" />
                 <p className="font-semibold text-xs leading-tight">Empowering learners with trusted training</p>
               </div>
             </div>
