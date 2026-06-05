@@ -1,4 +1,6 @@
 {
+  "/courses/page": "app/courses/page.js",
   "/about/page": "app/about/page.js",
+  "/newcourses/[slug]/page": "app/newcourses/[slug]/page.js",
   "/icon.png/route": "app/icon.png/route.js"
 }
